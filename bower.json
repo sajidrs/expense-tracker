@@ -9,7 +9,9 @@
   "homepage": "www.sajidrs.me",
   "dependencies": {
     "angular": "^1.6.4",
-    "bootstrap": "^3.3.7"
+    "bootstrap": "^4.0.0",
+    "angular-route": "^1.4.7",
+    "angular-bootstrap": "^0.13.0"
   },
   "install": {
     "path": "client/libs"
