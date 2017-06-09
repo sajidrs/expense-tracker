@@ -1,0 +1,17 @@
+{
+  "name": "expensetracker-sajid",
+  "description": "Multi User Expense Tracker",
+  "main": "server.js",
+  "authors": [
+    "Sajid Siddiqui <sajidrsid@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "www.sajidrs.me",
+  "dependencies": {
+    "angular": "^1.6.4",
+    "bootstrap": "^3.3.7"
+  },
+  "install": {
+    "path": "client/libs"
+  }
+}
