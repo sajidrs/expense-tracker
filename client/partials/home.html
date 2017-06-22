@@ -1,1 +1,9 @@
-HELLO WORLD!
+<div class="row">
+    <div class="col-md-8 col-md-offset-2">
+        <carousel interval="myInterval">
+          <slide ng-repeat="slide in slides" active="slide.active">
+                  <img ng-src="{{slide.image}}" style="margin:auto;">
+          </slide>
+        </carousel>        
+    </div>
+</div>
