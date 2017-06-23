@@ -1,3 +1,3 @@
 module.exports = {
-    'url': 'monogdb://' + process.env.IP
+    'url': 'mongodb://' + process.env.IP
 }
