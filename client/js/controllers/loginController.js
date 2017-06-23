@@ -15,8 +15,8 @@ myApp.controller('loginController', ['$scope', 'Api', function($scope, Api){
     }
     
     $scope.addToDatabase = function(){
-        Api.Customer.save({}, $scope.form, function(){
-            $scope.form = {};
+        Api.Customer.save({}, $scope.form, function(data){
+            $scope.customers.push(data);
         })
     }
 }]);
